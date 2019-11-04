@@ -1,7 +1,6 @@
 Rails.application.configure do
 
 #on configure les parametres d actionMailer en evirnnement de developpement  on utilise la gem open_letter qui va des qu un mail est envoye par notre app Rails ouvrir le mail automatiqt dans le navigateur. on peut voir notre rendu et voir si tt est bien branche 
-  config.action_mailer.delivery_method = :letter_opener
   config.action_mailer.perform_deliveries = true
   # Settings specified here will take precedence over those in config/application.rb.
 
